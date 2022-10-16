@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <div className="container mx-auto max-w-[1180px] font-sans">
+      <div className="container mx-auto font-sans">
         <Navbar />
         <main>
           <Component {...pageProps} />
