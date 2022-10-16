@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -29,9 +29,8 @@
       "type": "richtext",
       "required": true
     },
-    "Slug": {
+    "slug": {
       "type": "uid",
-      "targetField": "Title",
       "required": true
     },
     "category": {
