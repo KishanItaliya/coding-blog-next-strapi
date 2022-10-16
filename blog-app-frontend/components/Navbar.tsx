@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
       </Link>
 
-      <ul className="flex items-center space-x-6">
+      <ul className="hidden items-center space-x-6 sm:flex">
         <li className="font-medium text-gray-600">
           <a href="#">Products</a>
         </li>
