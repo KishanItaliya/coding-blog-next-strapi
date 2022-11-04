@@ -21,7 +21,7 @@
   }
 
   .single-article pre {
-    @apply text-green-500 bg-gray-100 my-6 p-2;
+    @apply text-gray-900 font-bold bg-gray-300 my-4 p-3 rounded;
   }
 
   .single-article blockquote {
