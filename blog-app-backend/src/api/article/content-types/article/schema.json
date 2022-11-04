@@ -31,13 +31,24 @@
     },
     "slug": {
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "title"
     },
     "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "articles"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "articles"
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
     }
   }
 }
