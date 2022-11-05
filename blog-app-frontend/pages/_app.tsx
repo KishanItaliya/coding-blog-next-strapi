@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <div className="container mx-auto font-sans px-8 md:px-12">
+      <div className="mx-auto max-w-7xl font-sans px-8 md:px-12">
         <NextNProgress color="#53BD95" />
         <Navbar />
         <main className="pb-32">
