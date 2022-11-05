@@ -11,8 +11,10 @@ const Footer = () => {
           href="/"
           className="flex items-center justify-center md:justify-start"
         >
-          <Image src="/logo.png" height={35} width={40} />
-          <span className="font-bold ml-3 text-gray-900">Tech Blog</span>
+          <>
+            <Image src="/logo.png" height={35} width={40} />
+            <span className="font-bold ml-3 text-gray-900">Tech Blog</span>
+          </>
         </Link>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
           © 2022 Tech blog —
