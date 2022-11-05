@@ -30,7 +30,7 @@ const Article = ({ article, notFound = false }: IPropTypes) => {
           <div className="flex items-center my-4 space-x-2">
             <div className="rounded-lg overflow-hidden flex items-center justify-center">
               <Image
-                src={`${process.env.API_BASE_URL}${article?.attributes?.author?.data?.attributes?.avatar?.data?.attributes?.formats?.thumbnail?.url}`}
+                src={`${process.env.NEXT_PUBLIC_API_URL}${article?.attributes?.author?.data?.attributes?.avatar?.data?.attributes?.formats?.thumbnail?.url}`}
                 height={40}
                 width={40}
               />
