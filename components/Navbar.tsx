@@ -14,32 +14,32 @@ const Navbar = () => {
 
       <ul className="hidden items-center space-x-6 sm:flex">
         <li className="font-medium text-gray-600">
-          <a href="#">Products</a>
+          <Link href="#">Products</Link>
         </li>
         <li className="font-medium text-gray-600">
-          <a href="#">Pricing</a>
+          <Link href="#">Pricing</Link>
         </li>
         <li className="font-medium text-gray-600">
-          <a href="#">Docs</a>
+          <Link href="#">Docs</Link>
         </li>
         <li className="font-medium text-gray-600">
-          <a href="#">Company</a>
+          <Link href="#">Company</Link>
         </li>
       </ul>
 
       <ul className="flex items-center space-x-6">
         <li className="font-medium text-gray-600">
-          <a href="#" className="hover:text-gray-400">
+          <Link href="#" className="hover:text-gray-400">
             Log in
-          </a>
+          </Link>
         </li>
         <li className="font-medium text-gray-600">
-          <a
+          <Link
             href="#"
             className="bg-primary py-2 px-4 rounded-sm text-white hover:bg-primary-dark transition-all"
           >
             Sign up
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
