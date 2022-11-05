@@ -4,7 +4,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
 import qs from "qs";
-import { fetchArticles, fetchCategories } from "../../api";
+import { fetchArticles, fetchCategories } from "../../http";
 import Tabs from "../../components/Tabs";
 import {
   IArticle,

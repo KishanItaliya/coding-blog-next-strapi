@@ -3,7 +3,7 @@ import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
 import qs from "qs";
 import { useRouter } from "next/router";
-import { fetchArticles, fetchCategories } from "../api";
+import { fetchArticles, fetchCategories } from "../http";
 import ArticleList from "../components/ArticleList";
 import Tabs from "../components/Tabs";
 import {
