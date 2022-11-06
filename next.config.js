@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     domains: [
       "localhost",
-      "https://whispering-shelf-76171.herokuapp.com",
-      "https://strapi-blog-app-s3-bucket.s3.ap-south-1.amazonaws.com",
+      "whispering-shelf-76171.herokuapp.com",
+      "strapi-blog-app-s3-bucket.s3.ap-south-1.amazonaws.com",
     ],
   },
 };
