@@ -30,7 +30,7 @@ const Article = ({ article, notFound = false }: IPropTypes) => {
           <div className="flex items-center my-4 space-x-2">
             <div className="rounded-lg overflow-hidden flex items-center justify-center">
               <Image
-                src={`${process.env.NEXT_PUBLIC_API_URL}${article?.attributes?.author?.data?.attributes?.avatar?.data?.attributes?.formats?.thumbnail?.url}`}
+                src={`${article?.attributes?.author?.data?.attributes?.avatar?.data?.attributes?.formats?.thumbnail?.url}`}
                 height={40}
                 width={40}
               />
@@ -46,7 +46,7 @@ const Article = ({ article, notFound = false }: IPropTypes) => {
           <div className="text-lg text-gray-600 leading-8">
             <img
               className="w-full my-12 mb-6"
-              src={`http://localhost:1337${article?.attributes?.image?.data?.attributes?.url}`}
+              src={`${article?.attributes?.image?.data?.attributes?.url}`}
               alt={article?.attributes?.title}
             />
             <MDXRemote
