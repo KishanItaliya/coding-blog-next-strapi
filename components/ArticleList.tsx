@@ -17,7 +17,6 @@ const ArticleList = ({ articles }: IPropTypes) => {
           <BlogCard key={article.id} article={article} />
         );
       })}
-<!--       <p>Artciles</p> -->
     </div>
   );
 };
